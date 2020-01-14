@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Organizador de Ideias</title>
+
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCD5U6CeXbEnQ2RgmRfdupL0iMURzzahr8",
+          authDomain: "organizador-de-ideias.firebaseapp.com",
+          databaseURL: "https://organizador-de-ideias.firebaseio.com",
+          projectId: "organizador-de-ideias",
+          storageBucket: "organizador-de-ideias.appspot.com",
+          messagingSenderId: "97865636153",
+          appId: "1:97865636153:web:a9639e861f31e7de3b30e8"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+    Seja bem vindo o valor de alguma coisa é: <span id="valor"></span>
+    <div id="botao-mudar">Mudar</div>
+    <script src="index.js"></script>
+</body>
+</html>
