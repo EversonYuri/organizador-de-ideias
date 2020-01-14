@@ -24,6 +24,7 @@ body {
     background-color: #000000;
     padding: 16px 100px;
     border-radius: 5px;
+    transform: scale(1.2);
 }
 
 #valor {
